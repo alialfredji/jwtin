@@ -1,0 +1,23 @@
+{
+  "name": "jwtin",
+  "version": "0.0.0",
+  "description": "Zero conf sandwich jwt validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "tdd": "jest --watchAll"
+  },
+  "keywords": [
+    "jwt",
+    "auth",
+    "trust"
+  ],
+  "author": "mysocial",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "peerDependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
