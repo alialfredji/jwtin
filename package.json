@@ -1,6 +1,6 @@
 {
   "name": "jwtin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Zero conf sandwich jwt validation",
   "main": "index.js",
   "scripts": {
