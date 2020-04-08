@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken')
 const getKeys = require('./get-keys')
 
-const createToken = async (from, to, payload, options = {}) => {
+const createToken = (from, to, payload, options = {}) => {
     const key = getKeys(from, to)
     const opt = {
         ...options,
