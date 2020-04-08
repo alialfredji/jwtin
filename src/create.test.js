@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken')
 const { createToken } = require('../index')
 const { validateToken } = require('../index')
 
-describe('jwtin create tokent', () => {
+describe('jwtin create token', () => {
     const realEnv = JSON.stringify(process.env)
 
     it('should fail if no environment variables are used', async () => {
@@ -11,7 +11,7 @@ describe('jwtin create tokent', () => {
         .toThrow(`missing environment keys - JWTIN`)
     })
 
-    describe('with wron envirronment variables', () => {
+    describe('with wrong environment variables', () => {
         beforeEach(() => {
             jest.resetModules()
             process.env.JWTIN = 'foo'

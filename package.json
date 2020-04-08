@@ -12,12 +12,17 @@
     "auth",
     "trust"
   ],
+  "bugs": {
+    "url": "https://github.com/alialfredji/jwtin/issues"
+  },
+  "repository": "https://github.com/alialfredji/jwtin/tree/master",
+  "homepage": "https://github.com/alialfredji/jwtin/tree/master#readme",
   "author": "mysocial",
   "license": "MIT",
   "devDependencies": {
     "jest": "^24.9.0"
   },
-  "peerDependencies": {
+  "dependencies": {
     "jsonwebtoken": "^8.5.1"
   }
 }
